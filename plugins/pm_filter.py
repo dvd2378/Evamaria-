@@ -765,7 +765,7 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"<b>Film : {search}\nYear : N/A\nLanguage : N/A</b>"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo="text", caption=cap[:1024],
+            await message.reply_photo(photo="https://telegra.ph/file/887f52b7de31021c40b75.jpg", caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
