@@ -106,7 +106,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("〄 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 〄",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"⇩ {search} ⇩",callback_data="neosub")]
+            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
         )          
     elif off_set is None:
         btn.append(
@@ -128,7 +128,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("〄 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 〄",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"⇩ {search} ⇩",callback_data="neosub")]
+            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
         )         
     try:
         await query.edit_message_reply_markup(
@@ -159,7 +159,7 @@ async def advantage_spoll_choker(bot, query):
             await auto_filter(bot, query, k)
         else:                
             btn = [[
-            InlineKeyboardButton('⌬ 𝗥𝗘𝗔𝗦𝗢𝗡𝗦 ⌬', callback_data='reqst11')
+            InlineKeyboardButton('⍟ 𝗥𝗘𝗔𝗦𝗢𝗡𝗦 ⍟', callback_data='reqst11')
         ]]        
             k=await query.message.edit('<b>✯ നിങ്ങൾ ചോദിച്ച മൂവി റിലീസ് ആയിട്ടുണ്ടോ..? </b>\n\n✯ 𝗜𝗳 𝗶𝘁 𝗶𝘀 , 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗨𝗽𝗹𝗼𝗮𝗱 𝗜𝘁⚡️\n\n<b>📯ɴʙ: Cʟɪᴄᴋ Bᴇʟᴏᴡ Rᴇᴀsᴏɴs Bᴜᴛᴛᴏɴ</b>', reply_markup=InlineKeyboardMarkup(btn))    
             await asyncio.sleep(60)
@@ -733,14 +733,14 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton("〄 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 〄",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"⇩ {search} ⇩",callback_data="neosub")]
+            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
         )   
     else:
         btn.append(
              [InlineKeyboardButton("〄 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 〄",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"⇩ {search} ⇩",callback_data="neosub")]
+            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
         )
         
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
