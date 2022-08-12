@@ -82,7 +82,14 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-        
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'✪ ᴛɪᴘs ✪', 'movieinfo'),
+            InlineKeyboardButton(f'✪ ᴛɪᴘs ✪', 'movieinfo'),
+        ]
+    )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -704,6 +711,13 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'✪ ᴛɪᴘs ✪', 'movieinfo'),
+            InlineKeyboardButton(f'✪ ᴛɪᴘs ✪', 'movieinfo'),
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
