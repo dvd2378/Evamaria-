@@ -37,12 +37,12 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('𝘏𝘌𝘓𝘗', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('𝙈𝙊𝙑𝙄𝙀𝙎 𝙂𝙍𝙊𝙐𝙋', url='https://t.me/new_movies_group_2021')
+            InlineKeyboardButton('ʜᴇʟᴩ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+            InlineKeyboardButton('ʟᴀᴛᴇꜱᴛ ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/CMT_link')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\n(എന്നെ ഗ്രൂപ്പിൽ അഡ്മിൻ ആക്കാൻ മറക്കല്ലേ......‼️)\n\n𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋.</b>",
+            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\n(എന്നെ ഗ്രൂപ്പിൽ അഡ്മിൻ ആക്കാൻ മറക്കല്ലേ......‼️)\n\n𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻.</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -72,7 +72,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b>',
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support channel.</b>',
             reply_markup=reply_markup,
         )
 
@@ -111,7 +111,7 @@ async def disable_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support channel.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
