@@ -85,7 +85,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'✪ ᴍᴏᴠɪᴇꜱ ✪', url='https://t.me/+NqEpYwqvzdIwYWU1'),
+            InlineKeyboardButton(f'✪ ᴍᴏᴠɪᴇꜱ ✪', url='https://t.me/+NQyOZEqAIiU4NWFl'),
             InlineKeyboardButton(f'✪ ꜱᴇʀɪᴇꜱ ✪', url='https://t.me/+KjgLbxaw_8M4NDA9'),
         ]
     )
@@ -716,7 +716,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'✪ ᴍᴏᴠɪᴇꜱ ✪', url='https://t.me/+NqEpYwqvzdIwYWU1'),
+            InlineKeyboardButton(f'✪ ᴍᴏᴠɪᴇꜱ ✪', url='https://t.me/+NQyOZEqAIiU4NWFl'),
             InlineKeyboardButton(f'✪ ꜱᴇʀɪᴇꜱ ✪', url='https://t.me/+KjgLbxaw_8M4NDA9'),
         ]
     )
