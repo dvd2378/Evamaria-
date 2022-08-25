@@ -733,14 +733,14 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
+            [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )   
     else:
         btn.append(
              [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
+            [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )
         
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
