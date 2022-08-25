@@ -103,7 +103,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.append(
-            [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮",callback_data="seriess")]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
@@ -125,7 +125,7 @@ async def next_page(bot, query):
             ],
         )
         btn.append(
-            [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮",callback_data="seriess")]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
@@ -730,14 +730,14 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="ɴᴇxᴛ ☞", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.append(
-            [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮",callback_data="seriess")]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )   
     else:
         btn.append(
-             [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
+             [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮",callback_data="seriess")]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
