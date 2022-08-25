@@ -64,7 +64,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"▣ {get_size(file.file_size)} » {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"📂 {get_size(file.file_size)} » {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -106,7 +106,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
+            [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )          
     elif off_set is None:
         btn.append(
@@ -114,7 +114,7 @@ async def next_page(bot, query):
              InlineKeyboardButton("ɴᴇxᴛ ☞", callback_data=f"next_{req}_{key}_{n_offset}")])
         btn.append([InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")])
         btn.insert(0,
-            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
+            [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )                     
     else:
         btn.append(
@@ -128,7 +128,7 @@ async def next_page(bot, query):
             [InlineKeyboardButton("∅ 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 ∅",callback_data="seriess")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(f"∅ {search} ∅",callback_data="neosub")]
+            [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
         )         
     try:
         await query.edit_message_reply_markup(
@@ -694,7 +694,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"▣ {get_size(file.file_size)} » {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"📂 {get_size(file.file_size)} » {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
