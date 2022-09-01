@@ -778,7 +778,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Film : {search}\nYear : N/A\nLanguage : N/A</b>"
+        cap = f"Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_text(text=cap[:1024],
