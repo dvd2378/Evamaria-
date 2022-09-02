@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('𝖬𝖮𝖵𝖨𝖤 𝖦𝖱𝖮𝖴𝖯', url='https://t.me/+KjgLbxaw_8M4NDA9')
+                InlineKeyboardButton('𝖬𝖮𝖵𝖨𝖤 𝖦𝖱𝖮𝖴𝖯', url='https://t.me/+SL0GhMb0mjoxYjRl')
             ],
             [
                 InlineKeyboardButton('𝖧𝖾𝗅𝗉', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -43,7 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 1🔸', url='https://t.me/+3SSAvOkxW_hjMDJl'),
-            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+KjgLbxaw_8M4NDA9')
+            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+SL0GhMb0mjoxYjRl')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
@@ -91,7 +91,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 1🔸', url='https://t.me/+3SSAvOkxW_hjMDJl'),
-            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+KjgLbxaw_8M4NDA9')
+            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+SL0GhMb0mjoxYjRl')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
