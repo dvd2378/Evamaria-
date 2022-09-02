@@ -375,7 +375,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{files.file_name}"
         buttons = [[
-            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/CMT_link')
+            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/+SL0GhMb0mjoxYjRl')
          ]]
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -422,7 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if f_caption is None:
             f_caption = f"{title}"
         buttons = [[
-            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/CMT_link')
+            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/+SL0GhMb0mjoxYjRl')
          ]]
         await query.answer()
         await client.send_cached_media(
@@ -437,7 +437,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons = [[            
             InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 1🔸', url='https://t.me/+3SSAvOkxW_hjMDJl'),
-            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+KjgLbxaw_8M4NDA9')
+            InlineKeyboardButton('🔸ɢʀᴏᴜᴘ 2🔸', url='https://t.me/+SL0GhMb0mjoxYjRl')
             ],[ 
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[     
@@ -472,7 +472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/+KjgLbxaw_8M4NDA9'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+SL0GhMb0mjoxYjRl'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
