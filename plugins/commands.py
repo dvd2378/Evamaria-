@@ -245,7 +245,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     buttons = [[
-            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/CMT_link')
+            InlineKeyboardButton('☞𝐋𝐀𝐓𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄𝐒☜', url='https://t.me/+SL0GhMb0mjoxYjRl')
         ]]
     await client.send_cached_media(
         chat_id=message.from_user.id,
