@@ -16,7 +16,7 @@ class script(object):
 
     SOURCE_TXT = """<b>NOTE:</b>
 - LISA is not a open source project. 
-- Source - <a href=https://t.me/+KjgLbxaw_8M4NDA9>Click Here</a>
+- Source - <a href=https://t.me/+SL0GhMb0mjoxYjRl>Click Here</a>
 
 <b>DEVS:</b>
 - <a href=https://t.me/CMT_Admin>ഇച്ചാപ്പി☠️</a>"""
