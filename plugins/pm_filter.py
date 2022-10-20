@@ -2,6 +2,7 @@
 import asyncio
 import re
 import ast
+from utils import get_shortlink
 import math
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
