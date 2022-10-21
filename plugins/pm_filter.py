@@ -128,7 +128,7 @@ async def next_page(bot, query):
             ],
         )
         btn.append(
-            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮",callback_data="seriess")]
+            [InlineKeyboardButton("🔮 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝚅𝙸𝙴𝚂 🔮", url='https://t.me/+5YSinWXGP6U0ZjE9:)]
         )
         btn.insert(0,
             [InlineKeyboardButton(f"🎪 {search} 🎪",callback_data="neosub")]
