@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Ichu23/Evamaria-",
-    "repository": "https://github.com/Ichu23/Evamaria-",
+    "website": "https://github.com/dvd2378/Evamaria-",
+    "repository": "https://github.com/dvd2378/Evamaria-",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
